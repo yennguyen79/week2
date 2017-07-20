@@ -1,0 +1,24 @@
+<style>
+  .debug {padding: 20px; margin-bottom: 20px;backgroud: #00ffff ; }
+  .done {text-decoration: line-through}
+</style>
+
+<div class = "debug">
+ <strong> Params:</strong> <%= params%>
+</div>
+
+<h1> Lab 2-4</h1>
+<p> I am in index.html.erb </p>
+
+<ul>
+ <% items.each do |item| %>
+    <li class="<%= item[:status]%>">
+      <%= item[:name] %>
+    </li>
+   <%end %>
+</ul>
+
+<form action="/submit" method="post">
+<input type="text" name="item_name">
+<input type="submit" value="search">
+</form>

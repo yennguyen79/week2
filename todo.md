@@ -1,0 +1,7 @@
+- [x] Learn String
+- [ ] Learn Hash
+- [ ] Learn Array
+- [x] Learn Git
+- [ ] ssss
+- [ ] dfsd
+- [ ] he
