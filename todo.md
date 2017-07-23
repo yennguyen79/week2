@@ -2,6 +2,5 @@
 - [ ] Learn Hash
 - [ ] Learn Array
 - [x] Learn Git
-- [ ] ssss
-- [ ] dfsd
-- [ ] he
+- [ ] hello
+- [x] I am a Ruby

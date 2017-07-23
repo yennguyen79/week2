@@ -12,13 +12,13 @@
 
 <ul>
  <% items.each do |item| %>
-    <li class="<%= item[:status]%>">
+    <li class="item <%= item[:status] %>">
       <%= item[:name] %>
     </li>
    <%end %>
 </ul>
 
-<form action="/submit" method="post">
+<form action="submit" method="post">
 <input type="text" name="item_name">
 <input type="submit" value="search">
 </form>
