@@ -8,17 +8,16 @@
 </div>
 
 <h1> Lab 2-4</h1>
-<p> I am in index.html.erb </p>
 
 <ul>
  <% items.each do |item| %>
-    <li class="item <%= item[:status] %>">
+    <li class="<%= item[:status] %>">
       <%= item[:name] %>
     </li>
-   <%end %>
+   <% end %>
 </ul>
 
-<form action="submit" method="post">
-<input type="text" name="item_name">
+<form action="/submit" method="post">
+<input type="text" name="item-name">
 <input type="submit" value="search">
 </form>
